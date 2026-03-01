@@ -74,11 +74,19 @@ It also supports **voice command control** (“start”, “stop”) and a **Gro
 
 # ⚙️ Installation & Setup (ALL-IN-ONE GUIDE)
 
-## 1️⃣ Clone Repository
+
 
 ```bash
 git clone https://github.com/your-username/smart-ac.git
 cd smart-ac
+##Activate:
+
+##Linux / Raspberry Pi
+source venv/bin/activate
+
+##Windows
+venv\Scripts\activate
+
 ## Create venv & install packages
 
 -python3 -m venv venv
@@ -96,4 +104,8 @@ cd smart-ac
 
 -python voice.py
 ---
-
+### Setup Environment Variables
+GROQ_API_KEY=your_groq_api_key
+ESP_IP=192.168.1.50
+STREAM_PORT=5000
+TARGET_TEMP=24
