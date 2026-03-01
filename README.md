@@ -71,24 +71,24 @@ It also supports **voice command control** (“start”, “stop”) and a **Gro
 
 ## Clone the repository
 
-git clone https://github.com/your-username/smart-ac.git
-cd smart-ac/server
+-git clone https://github.com/your-username/smart-ac.git
+-cd smart-ac/server
 ---
 ## Create venv & install packages
 
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+-python3 -m venv venv
+-source venv/bin/activate
+-pip install -r requirements.txt
 
 ---
 ## Live Stream Usage (PC)
 
-http://<RPI_IP>:5000/video
+-http://<RPI_IP>:5000/video
 
 ---
 
 ### Voice Commands
 
-python voice.py
+-python voice.py
 ---
 
