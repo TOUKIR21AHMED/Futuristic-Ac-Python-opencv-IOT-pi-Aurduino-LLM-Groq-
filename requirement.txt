@@ -1,0 +1,10 @@
+opencv-python
+SpeechRecognition
+pyttsx3
+pyaudio
+langchain
+langchain-google-genai
+tensorflow
+pillow
+python-dotenv
+pyserial
