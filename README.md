@@ -69,11 +69,16 @@ It also supports **voice command control** (“start”, “stop”) and a **Gro
 
 ---
 
-## Clone the repository
 
--git clone https://github.com/your-username/smart-ac.git
--cd smart-ac/server
 ---
+
+# ⚙️ Installation & Setup (ALL-IN-ONE GUIDE)
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/smart-ac.git
+cd smart-ac
 ## Create venv & install packages
 
 -python3 -m venv venv
